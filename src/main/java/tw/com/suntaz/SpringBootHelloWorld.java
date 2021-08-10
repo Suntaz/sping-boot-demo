@@ -1,4 +1,4 @@
-package tw.com.mitake;
+package tw.com.suntaz;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,4 +1,4 @@
-package tw.com.mitake;
+package tw.com.suntaz;
 
 public class Customer {
 

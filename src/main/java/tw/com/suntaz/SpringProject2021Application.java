@@ -1,4 +1,4 @@
-package tw.com.mitake;
+package tw.com.suntaz;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

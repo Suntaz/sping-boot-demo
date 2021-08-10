@@ -1,4 +1,4 @@
-package tw.com.mitake;
+package tw.com.suntaz;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
