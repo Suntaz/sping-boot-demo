@@ -21,9 +21,9 @@ public class SpringBootJdbcTemplateSqlServerApplication implements CommandLineRu
 
     @Override
     public void run(String... args) throws Exception {
-        String sql = "SELECT * FROM customers";
+        String sql = "SELECT * FROM customer";
         List<Customer> customers = jdbcTemplate.query(sql,
-                BeanPropertyRowMapper.newInstance(Customer.class));    
+                BeanPropertyRowMapper.newInstance(Customer.class));
         customers.forEach(System.out :: println);
         customers.forEach(e -> {
         	System.out.println(e.getName());
