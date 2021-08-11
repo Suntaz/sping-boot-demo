@@ -10,6 +10,7 @@ public class Customer {
     private Long id;
     private String name;
     private int age;
+    @Column(name="contractAddr")
     private String contractAddr;
 
 	public String getContractAddr() {
